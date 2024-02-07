@@ -1,0 +1,41 @@
+@font-face { 
+  font-family: 'Black';
+  src: url('../fonts/norwester.otf.otf');
+}
+@font-face { 
+  font-family: 'Bold';
+  src: url('../fonts/Akrobat-Bold.otf');
+}
+@font-face { 
+  font-family: 'ExtraBold';
+  src: url('../fonts/Akrobat-ExtraBold.otf');
+}
+@font-face { 
+  font-family: 'ExtraLight';
+  src: url('../fonts/Akrobat-ExtraLight.otf');
+}
+@font-face { 
+  font-family: 'Light';
+  src: url('../fonts/Akrobat-Light.otf');
+}
+@font-face { 
+  font-family: 'Medium';
+  src: url('../fonts/Akrobat-Medium.otf');
+}
+@font-face { 
+  font-family: 'Regular';
+  src: url('../fonts/norwester.otf');
+}
+@font-face { 
+  font-family: 'SemiBold';
+  src: url('../fonts/Akrobat-SemiBold.otf');
+}
+@font-face { 
+  font-family: 'Thin';
+  src: url('../fonts/Akrobat-Thin.otf');
+}
+@font-face { 
+  font-family: 'Dafoe';
+  src: url('../fonts/FFF_Tusj.ttf');
+}
+/* Path: assets\css\style.css */
