@@ -102,11 +102,11 @@ Citizen.CreateThread(function()
 
     while true do
         Citizen.Wait(0)
-        dist = GetDistanceBetweenCoords(vector3(494.64, -1333.92, 29.32), GetEntityCoords(PlayerPedId(), true), true)
+        dist = 0
         if dist < 5 then
             DrawMarker(0, 494.64, -1333.92, 29.32, 0,0,0,0,0,0,0.5,0.5,0.5,255,255,0,165,true,true,0,0)
             ShowFloatingHelpNotification('Paspauskite ~g~E~w~ atidaryti meniu', vector3(494.64, -1333.92, 29.32 + 1))
-            if IsControlJustPressed(0, 38) then
+            if IsControlJustPressed(0, 166) then
                 ReturnVehicleMenu()
             end
         end
