@@ -1,3 +1,10 @@
+----------------------------------------------------------------------------
+----------------------------------Made By:----------------------------------
+-------------------------------guillerp#1928--------------------------------
+-------------Don't touch if you don't know what are you doing---------------
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+
 ESX = exports["es_extended"]:getSharedObject()
 local playerloaded
 local coords = false
@@ -97,8 +104,6 @@ Citizen.CreateThread(function()
         Citizen.Wait(0)
         dist = 0
         if dist < 5 then
-            DrawMarker(0, 494.64, -1333.92, 29.32, 0,0,0,0,0,0,0.5,0.5,0.5,255,255,0,165,true,true,0,0)
-            ShowFloatingHelpNotification('Paspauskite ~g~E~w~ atidaryti meniu', vector3(494.64, -1333.92, 29.32 + 1))
             if IsControlJustPressed(0, 166) then
                 ReturnVehicleMenu()
             end
